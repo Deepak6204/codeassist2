@@ -25,7 +25,7 @@
             ],
             "java": "import java.util.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        int n = scanner.nextInt();\n        Solution solution = new Solution();\n        int result = solution.countPrimes(n);\n        System.out.println(result);\n    }\n}\n\nclass Solution {\n    public int countPrimes(int n) {\n        // Implement the function to count primes\n        return 0;\n    }\n}",
             "cpp": "#include <iostream>\nusing namespace std;\n\nclass Solution {\npublic:\n    int countPrimes(int n) {\n        // Implement the function to count primes\n        return 0;\n    }\n};\n\nint main() {\n    int n;\n    cin >> n;\n    Solution solution;\n    int result = solution.countPrimes(n);\n    cout << result << endl;\n    return 0;\n}",
-            "python": "class Solution:\n    def countPrimes(self, n: int) -> int:\n        # Implement the function to count primes\n        return 0\n\nif __name__ == '__main__':\n    n = int(input())\n    solution = Solution()\n    result = solution.countPrimes(n)\n    print(result)\n",
+            "python": "class Solution:\n   def countPrimes(self, n: int) -> int:\n        # Implement the function to count primes\n        return 0\n\nif __name__ == '__main__':\n    n = int(input())\n    solution = Solution()\n    result = solution.countPrimes(n)\n    print(result)\n",
             "c": "#include <stdio.h>\n\nint countPrimes(int n) {\n    // Implement the function to count primes\n    return 0;\n}\n\nint main() {\n    int n;\n    scanf(\"%d\", &n);\n    int result = countPrimes(n);\n    printf(\"%d\\n\", result);\n    return 0;\n}"
         },    
         {

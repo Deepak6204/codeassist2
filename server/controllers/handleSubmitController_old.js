@@ -2,7 +2,7 @@ const fs = require('fs').promises;
 const path = require('path');
 
 // File paths
-// const selectedQuestionFilePath = path.join(__dirname, '../data/selectedQuestion.json');
+// const selectedQuestionFilePath = path.join(__dirname, '../data/selectedQuestion.json');``
 // const selectedBugsFilePath = path.join(__dirname, '../data/selectedBugs.json');
 
 const searchLinesWithBugs = (question, bugIds) => {
