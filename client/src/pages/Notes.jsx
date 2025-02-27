@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import checklogo from '../images/checklogo.png';
 import htmlImage from '../images/html.webp';
 import cssImage from '../images/css.webp';
 import jsImage from '../images/js.webp';

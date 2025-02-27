@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
-import "./css/event.css";
-import BugBounty from "../images/Bug-Bounty.webp";
+// import "./css/event.css";
+import "./event.css";
+import BugBounty from "../../images/Bug-Bounty.webp"
 import { useNavigate } from 'react-router-dom';
-import { CiMenuFries } from "react-icons/ci";import { signInWithPopup, signOut } from 'firebase/auth'; 
-import Loader from '../components/Loader';
+import { CiMenuFries } from "react-icons/ci";
+import Loader from "../../components/Loader";
 
 
 const questions = {
@@ -1282,6 +1283,7 @@ const rules = {
     "6. Once you start, fullscreen mode will activate, and you can't exit without submission.",
   ],
 };
+
 function Event() {
   const [score, setscore] = useState(0)
   const [timeTaken, settimeTaken] = useState(0)

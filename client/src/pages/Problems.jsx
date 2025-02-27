@@ -7,9 +7,7 @@ import Loader from "../components/Loader";
 import "../style/problem.css";
 import Dropdown from 'react-bootstrap/Dropdown';
 import Form from 'react-bootstrap/Form';
-import { IoSearch } from "react-icons/io5";
 
-import './css/problem.css';
 
 function Problems() {
   const [problemList, setProblemList] = useState([]);

@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import checklogo from '../images/checklogo.png';
-import { CiMenuFries } from "react-icons/ci";import { signInWithPopup, signOut } from 'firebase/auth'; 
-import { auth, provider } from '../firebaseConfig'; 
-import { RiLogoutCircleLine } from "react-icons/ri";
-import { RiLoginCircleLine } from "react-icons/ri";
+import { CiMenuFries } from "react-icons/ci";import {signOut } from 'firebase/auth'; 
+import { auth } from '../firebaseConfig'; 
 
 const Navbar = () => {
   const [isLogged, setIsLogged] = useState(false); 
@@ -67,6 +65,7 @@ const Navbar = () => {
         <li><Link to="/roadmaps">ROADMAPS</Link></li>
         <li><Link to="/notes">NOTES</Link></li>
         <li><Link to="/leaderboard">LEADERBOARD</Link></li>
+        <li><Link to="/profile">PROFILE</Link></li>
         <li className="user-dropdown">
           {/* <FaUser style={{ marginBottom: "6px" }} /> */}
           {isLogged ? (

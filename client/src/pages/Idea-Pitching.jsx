@@ -5,7 +5,6 @@ import Post from "../components/IdeaPitchComp/Post"
 import PostForm from "../components/IdeaPitchComp/PostForm";
 import { Button } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import '../index.css'
 import Navbar from "../components/Navbar"
 
 
