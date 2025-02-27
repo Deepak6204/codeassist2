@@ -1,17 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar'; // Adjust the path based on your folder structure
 import Home from './pages/Home'; // Component for the home page
 import IdeaPitching from './pages/Idea-Pitching'; 
 import Notes from './pages/Notes'; // Component for the notes page
 import LeaderBoard from './pages/LeaderBoard'; // Component for the leaderboard page
 import Register from './pages/Register';
-import Footer from './components/Footer';
 import Problems from './pages/Problems';
 import ProblemDetails from './components/ProblemDetails';
 import Profile from './pages/Profile';
 import EditProfile from './pages/EditProfile';
-import Contest from './pages/Contest';
 import Roadmap from "./pages/Roadmap";
 import AppDevelopment from './components/svg/svgCont/appDev';
 import Ai from './components/svg/svgCont/ai';
