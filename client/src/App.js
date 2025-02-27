@@ -31,6 +31,7 @@ import Login from './pages/Logintemp';
 import Users from './pages/Users'
 import CreditsPage from './pages/Credit'
 import SetEligibility from './pages/set_eligible'
+import Events from './pages/Events';
 
 function App() {
     return (
@@ -41,7 +42,7 @@ function App() {
                 <Route path="/idea-pitch" element={<IdeaPitching/>} />
                 <Route path="/notes" element={<Notes />} />
                 <Route exact path="/problems" element={<Problems />} />
-                <Route exact path="/contest" element={<Contest />} />
+                <Route exact path="/events" element={<Events />} />
                 <Route exact path="/roadmaps" element={<Roadmap />} />
                 <Route exact path="/projects" element={<Project />} />
                 <Route path="/leaderboard" element={<LeaderBoard />} />

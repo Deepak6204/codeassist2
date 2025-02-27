@@ -49,7 +49,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar" style={{ paddingTop: "0px", paddingBottom: "0px", background: "transparent" }}>
+    <div className="navbar" style={{ paddingTop: "0px", paddingBottom: "0px", background: "black" }}>
       <Link to="/" className="logo1">
         <img src={checklogo} alt="checklogo" />
       </Link>
@@ -59,7 +59,7 @@ const Navbar = () => {
       </label>
       <ul style={{ marginBottom: "0" }}>
         <li><Link to="/problems">PROBLEMS</Link></li>
-        <li><Link to="/contest">CONTESTS</Link></li>
+        <li><Link to="/events">EVENTS</Link></li>
         <li><Link to="/idea-pitch">IDEA-PITCHING</Link></li>
         <li><Link to="/projects">PROJECTS</Link></li>
         <li><Link to="/roadmaps">ROADMAPS</Link></li>
